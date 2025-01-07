@@ -1,6 +1,6 @@
 function loadTranslations(language) {
     // Load the translation JSON
-    fetch(`${language}.json`)
+    fetch(`../lang/${language}.json`)
         .then(response => response.json())
         .then(data => {
 
