@@ -1,0 +1,42 @@
+/* Make sure the body takes full height */
+body {
+    margin: 0;
+    height: 100vh; /* 100% of the viewport height */
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    font-family: Arial, sans-serif; /* Add a font for better styling */
+    background-color: #f4f4f4; /* Light background color */
+}
+
+/* Center the content inside main */
+main {
+    text-align: center; /* Center text within the main section */
+    padding: 20px;
+    background-color: white; /* White background for the content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    max-width: 800px; /* Limit the max width of content */
+    width: 100%; /* Allow it to be responsive */
+}
+
+/* Optional: Add padding and margin for articles */
+article {
+    margin-bottom: 20px;
+}
+
+/* Style the buttons for language selection */
+.language-selector button {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #007BFF; /* Blue color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.language-selector button:hover {
+    background-color: #0056b3; /* Darker blue when hovered */
+}
