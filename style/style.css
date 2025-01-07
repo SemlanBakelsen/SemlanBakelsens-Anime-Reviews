@@ -3,7 +3,7 @@ body {
     margin: 0;
     height: 100vh; /* 100% of the viewport height */
     display: flex;
-    justify-content: center; /* Horizontally center */
+    justify-content: flex-start; /* Horizontally center */
     align-items: center; /* Vertically center */
     font-family: Arial, sans-serif; /* Add a font for better styling */
     background-color: #f4f4f4; /* Light background color */
@@ -16,7 +16,7 @@ main {
     background-color: white; /* White background for the content */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-    max-width: 800px; /* Limit the max width of content */
+    max-width: 80vw; /* Limit the max width of content */
     width: 100%; /* Allow it to be responsive */
 }
 
