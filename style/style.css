@@ -3,8 +3,9 @@ body {
     margin: 0;
     height: 100vh; /* 100% of the viewport height */
     display: flex;
-    justify-content: flex-start; /* Horizontally center */
-    align-items: center; /* Vertically center */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     font-family: Arial, sans-serif; /* Add a font for better styling */
     background-color: #f4f4f4; /* Light background color */
 }
